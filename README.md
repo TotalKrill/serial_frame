@@ -5,7 +5,9 @@
 ![License](https://img.shields.io/crates/l/serial_frame.svg)
 
 Simple serialport frame reciever, that asynchrounous sends chunks of bytes over an mpsc channel.
-the chunks are sent with the chosen delimiter
+the chunks are sent with the chosen delimiter.
+
+Can be used to recieve lines over serialports in an asynchronous manner, or to recieve cobs messages
 
 ## Example
 
